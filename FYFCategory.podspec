@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/786452470@qq.com/FYFCategory'
+  s.homepage         = 'https://github.com/fanyunfei786452470/FYFCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '786452470@qq.com' => 'fyf786452470@gmail.com' }
