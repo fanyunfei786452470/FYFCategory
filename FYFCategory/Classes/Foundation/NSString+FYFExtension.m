@@ -10,15 +10,6 @@
 
 @implementation NSString (FYFExtension)
 
-//判断字符串是否为空
-- (BOOL)fyf_isEmpty {
-    return [self isEqual:@"NULL"] || [self isKindOfClass:[NSNull class]] || self == nil || self == NULL || [[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0 || [self isEqualToString:@"<null>"] || [self isEqualToString:@"(null)"] || self.length <= 0; 
-}
-//判断字符串是否为空or NSNull
-- (BOOL)fyf_isEmptyOrNULL {
-    return self.length <= 0 || self == nil || [self isKindOfClass:[NSNull class]];
-}
-
 /// json 转dictionary
 - (NSDictionary *)fyf_jsonToDictionary {
     NSObject *obj = [self fyf_jsonToObject];

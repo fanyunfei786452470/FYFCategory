@@ -21,12 +21,6 @@ typedef NSString* (^ReplaceBlock)(NSString*,NSInteger);
 
 @interface NSString (FYFExtension)
 
-/// 判断字符串是否为空
-- (BOOL)fyf_isEmpty DEPRECATED_MSG_ATTRIBUTE("此方法不准确,请使用 -fyf_empty:() ");
-
-//判断字符串是否为空or NSNull
-- (BOOL)fyf_isEmptyOrNULL DEPRECATED_MSG_ATTRIBUTE("此方法不准确,请使用 -fyf_empty:() ");
-
 /// json 转换成字典
 - (NSDictionary *)fyf_jsonToDictionary;
 
