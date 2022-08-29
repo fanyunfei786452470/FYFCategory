@@ -3,7 +3,7 @@
  # File    : FYFCommonUtil.h
  # Project : Pods
  # Created : 2021/8/24 10:16 AM
- # DevTeam : Kingstar Development Team
+ # DevTeam : fanyunfei Development Team
  # Author  : fanyunfei
  # Notes   : 像素点的规范化
  #####################################################################
